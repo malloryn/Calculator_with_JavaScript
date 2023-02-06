@@ -1,0 +1,48 @@
+<html>
+<head>
+	<title>Calculator</title>
+<body bgcolor="lightblue">
+
+<script src="calculator.js"></script>
+</head>
+
+<body>
+<form>
+	<center><h1> Online Calculator</h1></center>
+
+		<p><strong>Enter one number into the corresponding text box that you would like to add, subtract, multiply, or divide.</strong></p> 
+
+		Addition:
+			<input type="text" id="txt1"/>
+			<strong>+</strong>
+			<input type="text" id="txt2"/>
+			<input type="button" id ="btn1" value="Enter" onclick = "add()" />
+			<p id="p1"></p>
+		<br/><br/>
+		Subtraction:
+			<input type="text" id="txt3"/>
+			<strong>-</strong>
+			<input type="text" id="txt4"/>
+			<input type="button" id ="btn2" value="Enter" onclick = "sub()" />
+			<p id="p2"></p>
+		<br/><br/>
+		Multiplication:
+			<input type="text" id="txt5"/>
+			x
+			<input type="text" id="txt6"/>
+			<input type="button" id ="btn3" value="Enter" onclick = "mul()" />
+			<p id="p3"></p>
+		<br/><br/>
+		
+		Division:
+			<input type="text" id="txt7"/>
+			<strong>/</strong>
+			<input type="text" id="txt8"/>
+			<input type="button" id ="btn4" value="Enter" onclick = "div()" />
+			<p id="p4"></p>
+		<br/><br/>
+
+
+</form>
+</body>
+</html>
